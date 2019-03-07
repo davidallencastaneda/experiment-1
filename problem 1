@@ -1,0 +1,125 @@
+#include<iostream>
+#include<conio.h>
+#include<iomanip>
+#include<float.h>
+using namespace std;
+int main()
+{
+	float abox;
+	float asideline;
+	float apremium;
+	float ageneral;
+	
+	float aboxt;
+	float asidelinet;
+	float apremiumt;
+	float ageneralt;
+	
+	float atotaltix;
+	float atotalamount;
+
+	
+	cout<<setprecision(2)<<showpoint<<fixed;
+
+	cout<<"Enter the amount of box ticket sold"<<endl;
+	cin>>abox;
+	cout<<"Enter the amount of sideline ticket sold"<<endl;
+	cin>>asideline;
+	cout<<"Enter the amount of premium tickets sold"<<endl;
+	cin>>apremium;
+	cout<<"Enter the amount of general admission tickets sold"<<endl;
+	cin>>ageneral;
+
+	atotaltix=abox+asideline+apremium+ageneral;
+
+	aboxt=250*abox;
+	asidelinet=100*asideline;
+	apremiumt=50*apremium;
+	ageneralt=25*ageneral;
+
+	atotalamount=aboxt+asidelinet+apremiumt+ageneralt;
+
+	cout<<"Number of tickets sold :"<<atotaltix<<endl;
+	
+	cout<<"Total sale amount: "<<atotalamount;
+	
+	cout<<endl;
+
+	float bbox;
+	float bsideline;
+	float bpremium;
+	float bgeneral;
+	
+	float bboxt;
+	float bsidelinet;
+	float bpremiumt;
+	float bgeneralt;
+	
+	float btotaltix;
+	float btotalamount;
+
+	
+	cout<<setprecision(2)<<showpoint<<fixed;
+
+	cout<<"Enter the amount of box ticket sold"<<endl;
+	cin>>bbox;
+	cout<<"Enter the amount of sideline ticket sold"<<endl;
+	cin>>bsideline;
+	cout<<"Enter the amount of premium tickets sold"<<endl;
+	cin>>bpremium;
+	cout<<"Enter the amount of general admission tickets sold"<<endl;
+	cin>>bgeneral;
+
+	btotaltix=bbox+bsideline+bpremium+bgeneral;
+
+	bboxt=250*bbox;
+	bsidelinet=100*bsideline;
+	bpremiumt=50*bpremium;
+	bgeneralt=25*bgeneral;
+
+	btotalamount=bboxt+bsidelinet+bpremiumt+bgeneralt;
+
+	cout<<"Number of tickets sold :"<<btotaltix<<endl;
+	
+	cout<<"Total sale amount: "<<btotalamount;
+	float bbox;
+	float bsideline;
+	float bpremium;
+	float bgeneral;
+	
+	float bboxt;
+	float bsidelinet;
+	float bpremiumt;
+	float bgeneralt;
+	
+	float btotaltix;
+	float btotalamount;
+
+	
+	cout<<setprecision(2)<<showpoint<<fixed;
+
+	cout<<"Enter the amount of box ticket sold"<<endl;
+	cin>>bbox;
+	cout<<"Enter the amount of sideline ticket sold"<<endl;
+	cin>>bsideline;
+	cout<<"Enter the amount of premium tickets sold"<<endl;
+	cin>>bpremium;
+	cout<<"Enter the amount of general admission tickets sold"<<endl;
+	cin>>bgeneral;
+
+	btotaltix=2box+2sideline+2premium+2general;
+
+	bboxt=250*bbox;
+	bsidelinet=100*bsideline;
+	bpremiumt=50*bpremium;
+	bgeneralt=25*bgeneral;
+
+	btotalamount=bboxt+bsidelinet+bpremiumt+bgeneralt;
+
+	cout<<"Number of tickets sold :"<<btotaltix<<endl;
+	
+	cout<<"Total sale amount: "<<btotalamount;
+
+	_getch();
+	return 0;
+}
